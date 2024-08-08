@@ -13,6 +13,7 @@ function App() {
     <TypingProvider>
       <div style={containerStyles}>
         <h1>Typing Speed Trainer</h1>
+        <h3 style={{color: 'grey', fontSize: '15px'}}>Перепечайте текст в окно ввода, для подсчета скорости печати(слов в минуту) и количества ошибок.</h3>
         <div style={textInputContainerStyles}>
           <TextDisplay text={textToType} />
           <TextInput text={textToType} />
